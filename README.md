@@ -33,7 +33,7 @@ python datasets/build.py <dataset> <root>
 Download model weights through the links below:
 
 | Model      | Size | Link |
-|------------|:----:|------|
+|------------|-----:|------|
 | L-CNN      | 150M | https://drive.google.com/file/d/1NvZkEqWNUBAfuhFPNGiCItjy4iU0UOy2 |
 | HAWPv1     | 40M  | https://github.com/cherubicXN/hawp-torchhub/releases/download/0.1/model-hawp-hg-5d31f70.pth |
 | TP-LSD-HG  | 29M  | https://github.com/Siyuada7/TP-LSD/blob/a00cb36712e5c7adbdcad1a9d319dde6b53472c6/pretraineds/HG128.pth |

@@ -8,7 +8,7 @@ from torchvision.datasets import VisionDataset
 
 
 class WireframeDataset(VisionDataset):
-    def __init__(self, root: str, split: Literal["train", "tese"],
+    def __init__(self, root: str, split: Literal["train", "test"],
                  transforms: Optional[Callable] = None):
         super().__init__(root, transforms)
         self.split = split
