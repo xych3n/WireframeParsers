@@ -22,7 +22,7 @@ python datasets/build.py <dataset> <root>
 | Model  | Paper | Source | Resource |
 |--------|-------|--------|----------|
 | L-CNN  | [End-to-End Wireframe Parsing](https://arxiv.org/abs/1905.03246v3) | ICCV 2019 | [repo](https://github.com/zhou13/lcnn/tree/57524636bc4614a32beac1af3b31f66ded2122ae) |
-| HAWPv1 | [Holistically-Attracted Wireframe Parsing](https://arxiv.org/abs/2003.01663v1) | CVPR 2020  | [repo](https://github.com/cherubicXN/hawp/tree/21391181150e05654a0ac26ba3ea226a7fd725cc) |
+| HAWPv1 | [Holistically-Attracted Wireframe Parsing](https://arxiv.org/abs/2003.01663v1) | CVPR 2020  | [repo](https://github.com/cherubicXN/hawp/tree/642f402c238285550a0c1bc2fad3eb91af16415e) |
 | TP-LSD | [TP-LSD: Tri-Points Based Line Segment Detector](https://arxiv.org/abs/2009.05505v1) | ECCV 2020 | [repo](https://github.com/Siyuada7/TP-LSD/tree/a00cb36712e5c7adbdcad1a9d319dde6b53472c6) |
 | LETR   | [Line Segment Detection Using Transformers without Edges](https://arxiv.org/abs/2101.01909v2) | CVPR 2021 | [repo](https://github.com/mlpc-ucsd/LETR/tree/6022fbd9df65569f4a82b1ac065bee8f26fc4ca6) |
 | F-Clip | [Fully Convolutional Line Parsing](https://arxiv.org/abs/2104.11207v3) | Neurocomputing 2022 | [repo](https://github.com/Delay-Xili/F-Clip/tree/e30d307e728aa530b5601e4581510bcd6093b620) |
@@ -74,7 +74,7 @@ ShanghaiTech Dataset:
 | LETR-R50      | 58.1 | 64.2  | 66.7  | 4.14  |
 | F-Clip-HG2    | 61.9 | 66.6  | 68.7  | 12.10 |
 | F-Clip-HG2-LB | 63.3 | 67.6  | 69.4  | 10.30 |
-| HAWPv2        | 64.3 | 68.5  | 70.3  | 18.18 |
+| HAWPv2        | 64.4 | 68.7  | 70.4  | 18.18 |
 
 Yorkurban Dataset:
 

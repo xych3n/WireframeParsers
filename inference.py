@@ -33,7 +33,6 @@ if __name__ == "__main__":
         transforms = T.Compose([
             T.Resize([512, 512]),
             T.ToTensor(),
-            # T.Normalize([.4303, .4072, .3870], [.0874, .0868, .0911]),
             T.Normalize([.430, .407, .387], [.087, .087, .091]),
         ])
     dataset = WireframeDataset(os.path.join("data", args.dataset),

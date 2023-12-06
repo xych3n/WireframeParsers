@@ -156,7 +156,7 @@ class HAWPv2(nn.Module):
         jloc, = heatmaps[:, 5:7].softmax(dim=1)[:, [1]]
         joff, = heatmaps[:, 7:9].sigmoid()
 
-        junc_coords, _ = propose_junctions(jloc, joff, threshold=0.008)
+        junc_coords, _ = propose_junctions(jloc, joff, k=300, threshold=0.008)
         line_coords = deocde_hafm(angs, dist, bias, bias_span=2).reshape(-1, 4)
         line_coords, lines_raw = self.propose_lines(junc_coords, line_coords)
 
