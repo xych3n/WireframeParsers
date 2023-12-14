@@ -6,7 +6,7 @@ We collect and rewrite the code for wireframe parsing of different deep-learning
 
 | Dataset      | Paper | Source | Resource |
 |--------------|-------|--------|----------|
-| YorkUrban    | [Efficient Edge-Based Methods for Estimating Manhattan Frames in Urban Imagery](https://elderlab.yorku.ca/wp-content/uploads/2017/02/pdenisThesis.pdf) | ECCV 2008 | [project](https://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/) |
+| YorkUrban    | [Efficient Edge-Based Methods for Estimating Manhattan Frames in Urban Imagery](https://elderlab.yorku.ca/wp-content/uploads/2017/02/pdenisThesis.pdf) | ECCV 2008 | [proj](https://www.elderlab.yorku.ca/resources/york-urban-line-segment-database-information/) |
 | YorkUrban<sup>1</sup> | [A Novel Linelet-Based Representation for Line Segment Detection](https://ieeexplore.ieee.org/document/7926451) | TPAMI 2018 | [repo](https://github.com/NamgyuCho/Linelet-code-and-YorkUrban-LineSegment-DB/tree/1dae1378153e5ec2d15de68489d7e4f6ca865e5e)  |
 | ShanghaiTech | [Learning to Parse Wireframes in Images of Man-Made Environments](https://arxiv.org/abs/2007.07527v1) | CVPR 2018 | [repo](https://github.com/huangkuns/wireframe/tree/d76e7406b3581ca8df26da0e0a4ec3bd14a8184d) |
 
