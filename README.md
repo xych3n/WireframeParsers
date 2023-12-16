@@ -89,3 +89,12 @@ Yorkurban Dataset:
 | HAWPv2        | 27.7 | 30.3  | 31.9  | 13.02 |
 
 Note: LETR is run on images resized to 1100.
+
+## Training Codes
+
+We've also made available the training codes for some models. These codes have been re-implemented to ensure consistency. Feel free to explore these repositories:
+
+| Model  | Repositiry Link |
+|--------|-----------------|
+| HAWP   | https://github.com/Evlpsrfc/hawp-reimpl |
+| F-Clip | https://github.com/Evlpsrfc/fclip-reimpl |
