@@ -94,7 +94,8 @@ class FClip(nn.Module):
             k=1000, soft=0.8, return_indices=True)
         radii = llen.flatten()[indices] * 64
         angles = lang.flatten()[indices] * torch.pi
-        displs = torch.stack((angles.cos(), -angles.sin().abs())) * radii
+        # account for y-axis reversal (negative sign)
+        displs = torch.stack((angles.cos(), -angles.sin())) * radii
         lines = torch.cat((centers + displs.t(), centers - displs.t()), dim=1)
 
         lines, scores = structrual_nms(lines, scores)
