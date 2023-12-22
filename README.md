@@ -96,5 +96,5 @@ We've also made available the training codes for some models. These codes have b
 
 | Model  | Repositiry Link |
 |--------|-----------------|
-| HAWP   | https://github.com/Evlpsrfc/hawp-reimpl |
-| F-Clip | https://github.com/Evlpsrfc/fclip-reimpl |
+| HAWP   | https://github.com/xych3n/hawp-reimpl |
+| F-Clip | https://github.com/xych3n/fclip-reimpl |
